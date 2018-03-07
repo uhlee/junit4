@@ -395,6 +395,10 @@
 		       <groupId>org.apache.maven.plugins</groupId>
 		       <artifactId>maven-pmd-plugin</artifactId>
 		       <version>3.9.0</version>
+		       <configuration>
+		       <minimumTokens>25</minimumTokens>
+		       </configuration>
+		       
 		 </plugin>   
             
         </plugins>
@@ -471,11 +475,7 @@
                 </reportSets>
             </plugin>
            
-		     <plugin>
-		       <groupId>org.apache.maven.plugins</groupId>
-		       <artifactId>maven-pmd-plugin</artifactId>
-		       <version>3.9.0</version>
-		     </plugin>
+		     
 		     
 	
 		     
